@@ -36,7 +36,8 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="buttons.html">Project Lists </a>
+                <a class="collapse-item" href="{{ route('projects.index') }}">Project Lists </a>
+                <a class="collapse-item" href="{{ route('recycle-data') }}">Recycle Bin</a>
             </div>
         </div>
     </li>
